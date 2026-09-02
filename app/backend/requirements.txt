@@ -6,7 +6,7 @@ aiofiles==24.1.0
     #   quart
 aiohappyeyeballs==2.4.4
     # via aiohttp
-aiohttp==3.10.11
+aiohttp==3.14.3
     # via
     #   -r requirements.in
     #   microsoft-kiota-authentication-azure
@@ -30,7 +30,7 @@ azure-cognitiveservices-speech==1.40.0
     # via -r requirements.in
 azure-common==1.1.28
     # via azure-search-documents
-azure-core==1.30.2
+azure-core==1.41.0
     # via
     #   azure-ai-documentintelligence
     #   azure-core-tracing-opentelemetry
@@ -85,7 +85,7 @@ click==8.1.7
     #   prompty
     #   quart
     #   uvicorn
-cryptography==44.0.1
+cryptography==50.0.0
     # via
     #   -r requirements.in
     #   azure-identity
@@ -105,7 +105,7 @@ exceptiongroup==1.3.0
     #   taskgroup
 fixedint==0.1.6
     # via azure-monitor-opentelemetry-exporter
-flask==3.0.3
+flask==3.1.3
     # via quart
 frozenlist==1.4.1
     # via
@@ -117,7 +117,7 @@ h11==0.14.0
     #   hypercorn
     #   uvicorn
     #   wsproto
-h2==4.1.0
+h2==4.4.1
     # via
     #   httpx
     #   hypercorn
@@ -134,7 +134,7 @@ hypercorn==0.17.3
     # via quart
 hyperframe==6.0.1
     # via h2
-idna==3.10
+idna==3.15
     # via
     #   anyio
     #   httpx
@@ -183,7 +183,7 @@ microsoft-kiota-abstractions==1.9.3
     #   msgraph-core
 microsoft-kiota-authentication-azure==1.9.3
     # via msgraph-core
-microsoft-kiota-http==1.9.3
+microsoft-kiota-http==1.9.9
     # via msgraph-core
 microsoft-kiota-serialization-form==1.9.3
     # via msgraph-sdk
@@ -326,7 +326,7 @@ packaging==24.1
     # via
     #   opentelemetry-instrumentation
     #   opentelemetry-instrumentation-flask
-pillow==10.4.0
+pillow==12.3.0
     # via -r requirements.in
 priority==2.0.0
     # via hypercorn
@@ -344,15 +344,15 @@ pydantic-core==2.20.1
     # via pydantic
 pygments==2.18.0
     # via rich
-pyjwt[crypto]==2.10.1
+pyjwt[crypto]==2.13.0
     # via
     #   -r requirements.in
     #   msal
 pymupdf==1.26.0
     # via -r requirements.in
-pypdf==4.3.1
+pypdf==6.16.1
     # via -r requirements.in
-python-dotenv==1.0.1
+python-dotenv==1.2.2
     # via
     #   -r requirements.in
     #   prompty
@@ -366,7 +366,7 @@ quart-cors==0.7.0
     # via -r requirements.in
 regex==2024.11.6
     # via tiktoken
-requests==2.32.3
+requests==2.33.0
     # via
     #   azure-core
     #   msal
@@ -386,7 +386,7 @@ sniffio==1.3.1
     #   anyio
     #   httpx
     #   openai
-soupsieve==2.6
+soupsieve==2.8.4
     # via beautifulsoup4
 std-uritemplate==2.0.3
     # via microsoft-kiota-abstractions
@@ -432,11 +432,11 @@ typing-extensions==4.13.2
     #   rich
     #   taskgroup
     #   uvicorn
-urllib3==2.5.0
+urllib3==2.7.0
     # via requests
 uvicorn==0.30.6
     # via -r requirements.in
-werkzeug==3.0.6
+werkzeug==3.1.6
     # via
     #   flask
     #   quart
